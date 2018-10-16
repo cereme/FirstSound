@@ -20,7 +20,7 @@ public:
 	bool CheckSignature1x(std::wstring sig);
 	bool CheckSignature2x(std::wstring sig);
 
-	std::wstring slice(int start, int end, bool prettify = false, bool isSingleByte = false);
+	std::wstring slice(int start, int end, bool prettify, bool isSingleByte);
 
 	void AnalyzeCLI(void);
 	void Analyze(void);
